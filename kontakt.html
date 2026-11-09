@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Söögitoa kontakt</title>
+</head>
+<body>
+
+    <header>
+        <h1>Võta meiega ühendust</h1>
+        <p>Oleme valmis vastama sinu küsimustele ja ettepanekutele!</p>
+    </header>
+
+    <main class="kontakt">
+
+        <section class="kontakt-info">
+            <h2>Meie kontaktandmed</h2>
+
+            <p><strong>Asutus:</strong> Kuusalu söögituba</p>
+
+            <p><strong>E-post:</strong> soogituba@gmail.com</p>
+
+            <p><strong>Telefon:</strong>
+                <a href="tel:+3726072438">+372 607 2438</a>
+            </p>
+
+            <p><strong>Aadress:</strong> Kuusalu Tee 39</p>
+
+            
+        </section>
+
+        <section class="kontakt-vorm">
+            <h2>Saada meile sõnum</h2>
+
+            <form action="https://formsubmit.co/soogituba@gmail.com"
+                  method="POST">
+
+                <input type="hidden"
+                       name="_subject"
+                       value="Uus sõnum Kuusalu söögitoale">
+
+                <label for="nimi">Sinu nimi:</label>
+                <input type="text"
+                       id="nimi"
+                       name="name"
+                       autocomplete="name"
+                       required>
+
+                <label for="email">Sinu e-posti aadress:</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       autocomplete="email"
+                       required>
+
+                <label for="sonum">Sõnum:</label>
+                <textarea id="sonum"
+                          name="message"
+                          rows="5"
+                          required></textarea>
+
+                <button type="submit">Saada sõnum</button>
+
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
